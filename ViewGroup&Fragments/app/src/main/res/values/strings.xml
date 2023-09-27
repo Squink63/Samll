@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewGroup</string>
+    <string name="tx_name">Merry James</string>
+    <string name="tx_job">Senior Mobile Developer</string>
+    <string name="tx_office">PADC Myanmar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large">
+
+        <ImageView
+            android:id="@+id/img_sample"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_sample"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_name"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_job"
+                android:textSize="15sp"
+                android:paddingTop="15dp"
+                android:textColor="#0B0A0A"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_office"
+                android:paddingTop="15dp"
+                android:textColor="#B3B0B0"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_a1"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:backgroundTint="@color/purple_200"
+        android:text="One" />
+
+    <Button
+        android:id="@+id/btn_a2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:text="Two"
+        android:backgroundTint="#40A617"/>
+
+    <Button
+        android:id="@+id/btn_a3"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:text="Three"
+        android:backgroundTint="#B61B1B"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"/>
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/btn_a2"
+        android:weightSum="4">
+
+        <Button
+            android:id="@+id/btn_l1"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Linear One"
+            android:backgroundTint="#E39F15"
+            android:layout_weight="2"/>
+
+        <Button
+            android:id="@+id/btn_l2"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Linear Two"
+            android:backgroundTint="#8E5142"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_l3"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:text="Linear Three"
+            android:backgroundTint="#15E3A2"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@id/linear_layout">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_1"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:text="Hello World!"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:padding="20dp"/>
+
+    </FrameLayout>
+
+</RelativeLayout>

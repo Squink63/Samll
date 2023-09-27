@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="lunch_selection">
+        <item>Myanmar Local Cuisine</item>
+        <item>European Foods</item>
+        <item>Mexican Foods</item>
+        <item>Italian Foods</item>
+        <item>Chinese Foods</item>
+    </string-array>
+
+    <string-array name="additional_drinks">
+        <item>Water</item>
+        <item>Soft Drink</item>
+        <item>Whiskey</item>
+        <item>Soda</item>
+        <item>Wine</item>
+    </string-array>
+
+</resources>

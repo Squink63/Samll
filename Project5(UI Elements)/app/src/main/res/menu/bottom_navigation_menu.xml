@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_home"
+        android:title="@string/lbl_home"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_home_24"/>
+    <item
+        android:id="@+id/action_notifications"
+        android:title="@string/lbl_notifications"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+    <item
+        android:id="@+id/action_profile"
+        android:title="@string/lbl_profile"
+        android:icon="@drawable/ic_baseline_person_24"/>
+
+</menu>

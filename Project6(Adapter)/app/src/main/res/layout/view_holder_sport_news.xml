@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_medium"
+    android:layout_marginStart="@dimen/margin_medium"
+    android:layout_marginEnd="@dimen/margin_medium">
+
+    <ImageView
+        android:id="@+id/ivSport"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_large_200"
+        android:src="@drawable/sport2"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+    <TextView
+        android:id="@+id/tvSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_sport"
+        android:layout_below="@id/ivSport"
+        android:layout_marginTop="@dimen/margin_medium_2"
+        android:layout_marginBottom="@dimen/margin_medium_2"
+        android:textSize="@dimen/text_regular"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="@dimen/margin_xxlarge"
+        android:layout_height="@dimen/margin_xxlarge"
+        android:layout_below="@id/tvSport"
+        android:layout_marginStart="@dimen/margin_medium_2"
+        android:src="@drawable/sky_sport"
+        android:background="@color/black"
+        android:scaleType="fitXY"
+        android:padding="@dimen/dimen_small_1"
+        android:layout_marginBottom="@dimen/margin_medium"/>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_sky_sports"
+        android:layout_below="@id/tvSport"
+        android:layout_toEndOf="@+id/ivLogo"
+        android:layout_marginStart="@dimen/margin_medium"
+        android:textSize="@dimen/text_regular_2x"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_date"
+        android:layout_alignStart="@id/tvTitle"
+        android:layout_below="@id/tvTitle"
+        android:textSize="@dimen/text_small"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_small_1"
+        android:layout_below="@id/ivLogo"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:background="@color/secondary"/>
+
+</RelativeLayout>

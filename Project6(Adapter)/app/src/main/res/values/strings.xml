@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project6</string>
+    <string name="lbl_title">Sports Media</string>
+    <string name="lbl_date">25 Mar 2020</string>
+    <string name="txt_description">The FIFA World Cup is a professional football tournament held between national football teams.Organised by FIFA, the tournament, held every four years, was first played in 1930 in Uruguay,and has been contested by 32 teams since the 1998 event.The tournament was contested with eight round-robin groups followed by a knockout round for 16 teams.The defending champions were France, who defeated Croatia 4–2 in the 2018 FIFA World Cup Final.The event was scheduled to take place under a reduced length,from 20 November to 18 December in Qatar.Being held in Qatar, it was the first World Cup tournament to be held in the Arab World.</string>
+    <string name="lbl_toolbar">Adapter Base View</string>
+    <string name="lbl_sport">Watch the best live coverage of your favourite sports: Football, Golf, Rugby, Cricket, F1, Boxing, NFL, NBA, plus the latest sports news, transfers and scores.</string>
+    <string name="lbl_sky_sports">Sky Sports</string>
+</resources>

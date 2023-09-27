@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityWithFragments">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<!--        <fragment-->
+<!--            android:id="@+id/fragmentFirst"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:name="com.padcmyanmar.abbc.viewgroup.FirstFragment"/>-->
+
+<!--        <fragment-->
+<!--            android:id="@+id/fragmentSecond"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="150dp"-->
+<!--            android:layout_below="@+id/fragmentFirst"-->
+<!--            android:name="com.padcmyanmar.abbc.viewgroup.SecondFragment"/>-->
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerFirst"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"/>
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerSecond"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_below="@id/fragmentContainerFirst"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="ViewPagerTabs"/>
+
+    </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

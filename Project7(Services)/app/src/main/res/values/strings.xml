@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project7</string>
+    <string name="lbl_start_service">Start Service</string>
+    <string name="lbl_end_service">End Service</string>
+    <string name="lbl_download1">Download Image(Intent Service)</string>
+    <string name="lbl_download2">Download Image(Job Intent Service)</string>
+    <string name="lbl_work_manager">Download Image(Work Manager)</string>
+</resources>

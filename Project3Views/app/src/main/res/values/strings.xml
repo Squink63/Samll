@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Project3</string>
+    <string name="greeting">Hello World!</string>
+    <string name="edt_name_hint">Type Your Name Please</string>
+    <string name="btn_hello">Say Hello</string>
+    <string name="cb_1">Apple</string>
+    <string name="cb_2">Orange</string>
+    <string name="cb_3">Watermelon</string>
+    <string name="fruit_alert_dialog_title">Selected Fruits</string>
+    <string name="rb_male">Male</string>
+    <string name="rb_female">Female</string>
+    <string name="btn_check_fruit">Check Fruit</string>
+    <string name="text_off">Off</string>
+    <string name="text_on">On</string>
+    <string name="text_light_on">Turning on the guest room light.</string>
+    <string name="text_light_off">Turning off the guest room light.</string>
+    <string name="swt_door_lock">Door Lock :</string>
+    <string name="text_show_loading">Show loading</string>
+    <string name="text_select_date">Select Date</string>
+    <string name="tv_date">Your selected date :</string>
+    <string name="tx_select_time">Select Time To Check Out</string>
+    <string name="tv_ride">Your Ride</string>
+    <string name="yv_your_ride">Your ride is</string>
+    <string name="tv_amount">$4.57</string>
+    <string name="tv_driver">Michael Myers</string>
+    <string name="tx_time">Select Time</string>
+</resources>

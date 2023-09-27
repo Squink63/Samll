@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!-- Generic with ratio -->
+    <dimen name="margin_medium_2">16dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_large_2">50dp</dimen>
+</resources>

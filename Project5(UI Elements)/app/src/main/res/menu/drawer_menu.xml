@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/ic_baseline_camera_24"
+            android:title="@string/lbl_import"/>
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_baseline_favorites_24"
+            android:title="@string/lbl_favorites"/>
+
+        <item
+            android:id="@+id/nav_recent"
+            android:icon="@drawable/ic_baseline_recent_24"
+            android:title="@string/lbl_recent"/>
+
+        <item
+            android:id="@+id/nav_trash"
+            android:icon="@drawable/ic_baseline_trash_24"
+            android:title="@string/lbl_trash"/>
+
+    </group>
+
+    <item android:title="@string/lbl_settings">
+        <menu>
+            <item
+                android:id="@+id/nav_general"
+                android:icon="@drawable/ic_baseline_settings_24"
+                android:title="@string/lbl_general"/>
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_baseline_feedback_24"
+                android:title="@string/lbl_about"/>
+        </menu>
+
+    </item>
+
+</menu>
